@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 96px 0;
+    font-family: var(--main-font);
+    
+}
+
+.header__container {
+    width: 60%;
+    text-align: center;
+}
+
+.header__span {
+    color: var(--red-color);
+    font-size: 1rem;
+    font-weight: 600;
+}

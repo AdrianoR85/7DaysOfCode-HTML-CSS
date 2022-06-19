@@ -1,0 +1,17 @@
+.button {
+    border: none;
+    border-radius: 7px;
+    background-color: var(--white-color);
+    color: var(--main-color);
+    padding: 0.9rem 1rem;
+    font-size: 1.1rem;
+}
+
+.button__login {
+    margin-right: 1rem;
+}
+
+.button_register {
+    background-color: var(--button-color);
+    color: var(--white-color);
+}

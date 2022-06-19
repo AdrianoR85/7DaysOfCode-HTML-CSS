@@ -1,0 +1,36 @@
+.openVacancie {
+    padding: 4rem 1rem;
+    width: 50%;
+}
+
+.openVacancie__container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem 0;
+    padding: 2rem 0;
+}
+
+.openVacancies__title {
+    font-size: 1.25rem;
+    color: var(--black-color);
+    padding-bottom: 2rem;
+}
+
+.openVacancie__job {
+    display: grid;
+    grid-template-columns: 20% auto;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid var(--border-color);
+}
+
+.openVacancie__jobTitle {
+    font-size: 1.125rem;
+    font-weight: 600;
+    padding-bottom: 2rem;
+    grid-column: span 2;
+}
+
+.openVacancie__info{
+    color: var(--main-color);
+}

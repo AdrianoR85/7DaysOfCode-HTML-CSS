@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 2rem 0;
+    padding: 0.9rem 1rem;
+    font-family: var(--main-font);
+    font-size: 1.1rem;
+}
+
+.navbar__links {
+    display: flex;
+    list-style-type: none;
+    padding-right: 10rem;
+}
+
+.link {
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 2rem;
+}
+

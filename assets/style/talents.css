@@ -1,0 +1,13 @@
+.talent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 3rem;
+    width: 100%;
+}
+
+.talent__image {
+    width: 100%;
+    padding-top: 4rem;
+}
