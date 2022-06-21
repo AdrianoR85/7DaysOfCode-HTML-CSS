@@ -25,3 +25,11 @@
     color: var(--main-color);
     font-size: 1rem;
 }
+
+@media screen and (max-width: 860px) {
+    .metrics {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}

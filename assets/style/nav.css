@@ -21,3 +21,14 @@
     color: var(--main-font);
 }
 
+@media screen and (max-width: 860px) {
+    .navbar__links {
+        display: none;
+        padding-right: 0;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+}
+

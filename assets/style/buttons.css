@@ -15,3 +15,15 @@
     background-color: var(--button-color);
     color: var(--white-color);
 }
+
+@media screen and (max-width: 860px) {
+    .buttons {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .button_register {
+        display: block;
+    }
+}

@@ -33,3 +33,9 @@
 .openVacancie__info{
     color: var(--main-color);
 }
+
+@media screen and (max-width: 400px) {
+    .openVacancie {
+        width: 100%;
+    }
+}
