@@ -3,16 +3,30 @@
     justify-content: center;
     padding: 96px 0;
     font-family: var(--main-font);
+    background-color: aquamarine;
     
 }
 
 .header__container {
     width: 60%;
     text-align: center;
+    padding: 2rem 0;
 }
 
-.header__span {
+.header__aboutUs {
     color: var(--red-color);
     font-size: 1rem;
     font-weight: 600;
+}
+
+.header__title {
+    color: var(--title-color);
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.header__description {
+    color: var(--main-color);
+    font-size: 1.25rem;
 }

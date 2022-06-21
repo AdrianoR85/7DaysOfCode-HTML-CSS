@@ -1,5 +1,5 @@
 .openVacancie {
-    padding: 4rem 1rem;
+    padding: 0rem 1rem;
     width: 50%;
 }
 
@@ -7,13 +7,12 @@
     display: flex;
     flex-direction: column;
     gap: 1.25rem 0;
-    padding: 2rem 0;
 }
 
 .openVacancies__title {
     font-size: 1.25rem;
     color: var(--black-color);
-    padding-bottom: 2rem;
+    padding: 3rem 0;
 }
 
 .openVacancie__job {
