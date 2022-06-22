@@ -1,4 +1,4 @@
-.depositions__container {
+.message__container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,31 +9,31 @@
     padding:4rem;
 }
 
-.depositions__little-title {
+.message__little-title {
     font-size: 0.875rem;
     font-weight: 600;
     color: var(--red-color);
 }
 
-.perfil__photo {
+.message__photo {
     background-image: url(../image/Avatar.png);
     width: 56px;
     height: 56px;
     border-radius: 50%;
 }
 
-.deposition__message {
+.message__text {
     font-size: 1.8rem;
     font-weight: 600;
     padding: 1rem 0 2rem 0;
 }
 
-.perfil__name {
+.message__name {
     font-size: 1rem;
     padding: 1rem 0 0.25rem 0;
 }
 
-.perfil__occupation {
+.message__occupation {
     font-size: 0.875rem;
     color: var(--main-color);
 }

@@ -16,14 +16,25 @@
     color: var(--white-color);
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 800px) {
+    .buttons {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .button {
+        font-size: 1rem;
+        padding: 0.6rem;
+    }
+
     .buttons {
         display: flex;
         align-items: center;
-        flex-direction: column;
     }
 
     .button_register {
         display: block;
     }
 }
+

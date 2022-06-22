@@ -34,7 +34,7 @@
     color: var(--main-color);
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 800px) {
     .openVacancie {
         width: 100%;
     }
