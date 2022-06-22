@@ -1,21 +1,21 @@
-.openVacancie {
+.jobOpenings {
     padding: 0rem 1rem;
     width: 50%;
 }
 
-.openVacancie__container {
+.jobOpenings__container {
     display: flex;
     flex-direction: column;
     gap: 1.25rem 0;
 }
 
-.openVacancies__title {
+.jobOpenings__title {
     font-size: 1.25rem;
     color: var(--black-color);
     padding: 3rem 0;
 }
 
-.openVacancie__job {
+.jobOpenings__job {
     display: grid;
     grid-template-columns: 20% auto;
     padding: 1.5rem;
@@ -23,19 +23,19 @@
     border: 1px solid var(--border-color);
 }
 
-.openVacancie__jobTitle {
+.jobOpenings__jobTitle {
     font-size: 1.125rem;
     font-weight: 600;
     padding-bottom: 2rem;
     grid-column: span 2;
 }
 
-.openVacancie__info{
+.jobOpenings__info{
     color: var(--main-color);
 }
 
 @media screen and (max-width: 800px) {
-    .openVacancie {
+    .jobOpenings {
         width: 100%;
     }
 }

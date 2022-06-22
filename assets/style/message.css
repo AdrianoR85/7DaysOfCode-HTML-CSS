@@ -15,7 +15,7 @@
     color: var(--red-color);
 }
 
-.message__photo {
+.perfil__photo {
     background-image: url(../image/Avatar.png);
     width: 56px;
     height: 56px;
@@ -28,12 +28,12 @@
     padding: 1rem 0 2rem 0;
 }
 
-.message__name {
+.perfil__name {
     font-size: 1rem;
     padding: 1rem 0 0.25rem 0;
 }
 
-.message__occupation {
+.perfil__occupation {
     font-size: 0.875rem;
     color: var(--main-color);
 }
